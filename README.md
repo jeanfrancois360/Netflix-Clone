@@ -1,6 +1,4 @@
 # Netflix-Clone 
-This React project has multiple pages: Home, Browse (which uses Firebase authentication), sign in, and sign up.
-The sign in will connect to Firebase when a user tries to sign in, and when a user signs up, we will use Firebase
-auth to store the user in the Firebase auth database. I built this app using React and uses Styled Components for
-all the styling we implement. In the project I use Fuse.js for live search, and I test all the components using React Testing Library.
-And of course I use React router for navigation!
+This application (a Netflix clone) was built using React (Custom Hooks, Context), Firebase & Styled Components. I have built the following pages within this application: sign in, sign up, browse & lastly the homepage. There are four different pages, some using protected routes with auth listeners. Firebase firestore handles all the data and that data is retrieved using a custom hook; authentication is used on all pages, which is handled by Firebase as well.
+
+I used compound components (just a design pattern) to build my components, and there's over 10 examples as to how these are used. The styling is all handled via styled components. Using compound components made my actual dumb components really easy to test.
